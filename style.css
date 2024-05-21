@@ -11,13 +11,15 @@ header{
     margin: 0;
 }
 
-/* header start */
-.headercontainer{
+/* common */
+.container{
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
     padding: 50px;
 }
+
+/* header start */
 .logo{
     width: 10%;
     float: left;
@@ -33,6 +35,7 @@ header{
 }
 .menu ul{
     list-style: none;
+   
 
 }
 .menu ul li{
@@ -59,3 +62,41 @@ header{
 }
 
 /* header end */
+
+
+/* banner start */
+.b_img img{
+    width: 100%;
+
+}
+/* banner end */
+
+/* getaway start */
+.getaway{
+    padding: 100px 0;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+}
+.light{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.title{
+    margin: 30px 0 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text{
+    margin: 0;
+    line-height: 24px;
+}
+.g_link{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #626262;
+}
+/* getaway end */
