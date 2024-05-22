@@ -100,3 +100,33 @@ header{
     color: #626262;
 }
 /* getaway end */
+
+
+/* blog start */
+.blog{
+    padding: 0 0 100px;
+}
+.bl_content{
+    overflow: hidden;
+    
+
+}
+.bl_item{
+
+    width: 48%;
+    float: left;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-bottom: 130px;
+}
+.bl_item:nth-child(even){
+    margin-left: 4%;
+}
+.bl_img{
+    margin-bottom: 20px;
+}
+.bl_img img{
+    width: 100%;
+}
+
+/* blog end*/
