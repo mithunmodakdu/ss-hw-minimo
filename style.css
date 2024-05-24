@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body{
+    margin: 0;
     font-family: "Playfair Display", serif;
     font-size: 16px;
     font-weight: 400;
     color: #626262;
+    
 }
 header{
-    margin: 0;
+    padding: 10px 0;
 }
 
 /* common */
@@ -16,18 +18,21 @@ header{
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
-    padding: 50px;
+      
+    
 }
 
 /* header start */
 .logo{
     width: 10%;
     float: left;
+    margin: 20px 0;
+   
    
 }
 .logo img{
     width: 100%;
-    padding-top: 5px;
+    
 }
 .menu{
     width: 55%;
@@ -46,7 +51,8 @@ header{
 
 .menu ul li a{
     font-size: 16px;
-    margin: 0 55px;
+    display: inline-block;
+    margin: 20px 55px;
     color: #626262;
     text-decoration: none;
     text-transform: uppercase;
@@ -73,7 +79,7 @@ header{
 
 /* getaway start */
 .getaway{
-    padding: 100px 0;
+    padding: 100px 0 30px;
 }
 .container2{
     margin: 0 auto;
@@ -85,7 +91,7 @@ header{
     text-transform: uppercase;
 }
 .title{
-    margin: 30px 0 20px;
+    margin: 15px 0 25px;
     font-size: 30px;
     font-weight: 400;
 }
@@ -112,12 +118,12 @@ header{
 
 }
 .bl_item{
-
+    margin-top: 70px;
     width: 48%;
     float: left;
     border: 1px solid transparent;
     box-sizing: border-box;
-    margin-bottom: 130px;
+    
 }
 .bl_item:nth-child(even){
     margin-left: 4%;
@@ -130,3 +136,98 @@ header{
 }
 
 /* blog end*/
+
+/* newsletter start */
+.newsletter{
+    min-height: 400px;
+    background-color: #f0f0f0;
+}
+/* newsletter end */
+
+/* blog2 start */
+.blo2{
+    margin: 100px 0;
+}
+.load{
+    margin: 150px 0 50px;
+    text-align: center;
+    
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #626262;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    transition: .33s linear;
+
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+
+}
+/* blog2 end */
+
+
+/* footer start */
+footer{
+    height: 95px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+
+}
+.pages{
+    width: 27%;
+    float: left;
+    overflow: hidden;
+    margin:20px 0 0 70px;
+    
+
+}
+.pages ul{
+    padding: 0;
+}
+.pages ul li{
+    float: left;
+    list-style: none;
+    margin-right: 16px;
+   
+
+}
+.pages ul li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+.social{
+    width: 10%;
+    float: right;
+    overflow: hidden;
+    margin: 20px 0 0 0;
+
+}
+.social ul{
+    padding: 0;
+}
+.social ul li{
+    float: left;
+    float: left;
+    list-style: none;
+    margin-right: 16px;
+   
+
+}
+.social ul li:last-child{
+    margin-right: 0;
+}
+.social ul li span{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+/* footer end */
