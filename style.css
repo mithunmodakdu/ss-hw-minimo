@@ -139,9 +139,57 @@ header{
 
 /* newsletter start */
 .newsletter{
-    min-height: 400px;
     background-color: #f0f0f0;
+    padding: 70px 0;
 }
+.signup{
+    text-align: center;
+    
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+
+}
+.s_form{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+   
+
+}
+.s_form input{
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 0;
+
+}
+.s_form button:focus{
+    outline: 0;
+
+}
+
 /* newsletter end */
 
 /* blog2 start */
